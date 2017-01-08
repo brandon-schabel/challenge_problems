@@ -1,4 +1,4 @@
-def Descending_Order(num):
+def descending_order(num):
     finalNum = []
     numArray = list(str(num))
     
