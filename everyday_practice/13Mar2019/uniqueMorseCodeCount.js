@@ -77,6 +77,5 @@ var uniqueMorseRepresentatios = function(words) {
   return Object.keys(morseObj).length
 }
 
-
 //test
-console.log(uniqueMorseRepresentatios( ["gin", "zen", "gig", "msg"]))
+console.log(uniqueMorseRepresentatios(["gin", "zen", "gig", "msg"]))
