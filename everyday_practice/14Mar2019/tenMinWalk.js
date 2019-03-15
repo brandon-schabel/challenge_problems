@@ -1,3 +1,5 @@
+//https://www.codewars.com/kata/take-a-ten-minute-walk
+
 function isValidWalk(walk) {
   //insert brilliant code here
   if(walk.length !== 10) return false
