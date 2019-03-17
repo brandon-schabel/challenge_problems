@@ -1,4 +1,5 @@
-function GetSum(a, b) {
+// https://www.codewars.com/kata/55f2b110f61eb01779000053/solutions/javascript
+const GetSum = (a, b) => {
   //Good luck!
   let total = 0
 

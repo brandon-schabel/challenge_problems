@@ -1,5 +1,5 @@
 // https://www.codewars.com/kata/exes-and-ohs/train/javascript
-function XO(str) {
+const XO = (str) => {
   //code here
   let x = 0
   let o = 0
