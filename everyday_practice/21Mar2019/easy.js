@@ -11,3 +11,7 @@ function numberToString(num) {
 function litres(time) {
   return Math.floor(time * 0.5);
 }
+
+function invert(array) {
+  return array.map(n => n !== 0 ? n * -1 : 0);
+}
