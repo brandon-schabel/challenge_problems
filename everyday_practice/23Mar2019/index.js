@@ -14,3 +14,20 @@ function divisibleBy(numbers, divisor){
   
   return result
 }
+
+// https://www.codewars.com/kata/total-amount-of-points/train/javascript
+function points(games) {
+  // your code here
+  let total = 0;
+  games.forEach(game => {
+    let currGame = game.split(":");
+    let x = parseInt(currGame[0]);
+    let y = parseInt(currGame[1]);
+    
+    if(x > y) total += 3;
+    if(x === y) total +=1;
+  })
+  
+  return total;
+}
+
