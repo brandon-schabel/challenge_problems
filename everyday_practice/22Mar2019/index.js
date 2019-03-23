@@ -23,3 +23,12 @@ function abbrevName(name){
   return `${splitName[0][0]}.${splitName[1][0]}`
   
 }
+
+function bonusTime(salary, bonus) {
+  // your code here
+    if(bonus){
+      return `£${salary*10}`
+    } else {
+      return `£${salary}`
+    }
+  }
