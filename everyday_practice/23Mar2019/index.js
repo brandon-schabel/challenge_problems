@@ -31,3 +31,5 @@ function points(games) {
   return total;
 }
 
+// https://www.codewars.com/kata/function-1-hello-world/train/javascript
+const greet = () => "hello world!"
