@@ -7,3 +7,19 @@ const rps = (p1, p2) => {
   if(p2 === 'rock' && p1 === 'scissors') return 'Player 2 won!'
   if(p2 === 'paper' && p1 === 'rock') return 'Player 2 won!'
 };
+
+function squareSum(numbers){
+  let total = 0;
+  numbers.forEach(num => {
+    total += num*num
+  })
+  return total
+}
+
+function abbrevName(name){
+  // code away
+  const splitName = name.toUpperCase().split(" ")
+  
+  return `${splitName[0][0]}.${splitName[1][0]}`
+  
+}
