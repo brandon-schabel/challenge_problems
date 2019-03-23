@@ -33,3 +33,17 @@ function points(games) {
 
 // https://www.codewars.com/kata/function-1-hello-world/train/javascript
 const greet = () => "hello world!"
+
+// https://www.codewars.com/kata/how-many-stairs-will-suzuki-climb-in-20-years/train/javascript
+function stairsIn20(s){
+  //your code here
+  let total = 0;
+  s.forEach(day => {
+    day.forEach(steps => {
+      total += steps;
+    })
+  })
+  return total * 20;
+}
+
+
