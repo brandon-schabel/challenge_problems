@@ -61,3 +61,4 @@ function same2(arr1, arr2) {
 }
 
 console.log(same2([1,2,3], [2,4,6]));
+
